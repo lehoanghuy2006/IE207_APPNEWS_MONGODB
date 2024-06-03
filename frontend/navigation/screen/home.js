@@ -161,7 +161,7 @@ export default Home = ({ navigation }) => {
       searchBar: {
         flexDirection: 'row',
         borderWidth: 1.5,
-        borderRadius: 15,
+        borderRadius: 8,
         padding: 4,
         marginLeft:'2%'
       },
@@ -207,17 +207,18 @@ export default Home = ({ navigation }) => {
     },
     
     typeText:{
-        color:'#1a1a1a',
+        color:'#fff',
         fontSize:18,
         fontWeight:'500',
         paddingLeft:15,
         paddingRight:15,
     },
     newsTypeBox:{
+      backgroundColor:"#2e44e8",
         flexDirection:'row',
         margin:5,
         padding:5,
-        borderColor:'#1a1a1a',
+        borderColor:'blue',
         borderRadius:10,
         borderWidth:1.5,
     },
